@@ -9,8 +9,8 @@ const char* password = "YOUR_PASSWD_HERE";
 
 // Define NTP Client to get time
 const char* ntpServer = "pool.ntp.org";
-const long  gmtOffset_sec = 0;
-const int   daylightOffset_sec = 3600 + 3600 + 3600;
+const long  gmtOffset_sec = 2 x 3600;
+const int   daylightOffset_sec = 3600;
 
 //analog clock drawing settings
 int x_origo = 64;
